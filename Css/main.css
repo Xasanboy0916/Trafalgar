@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@300;400;500;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* header section styles */
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.links {
+  width: 545px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.link {
+  font-size: 18px;
+  font-weight: 400;
+  color: #7d7987;
+}
+.link:hover {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1f1534;
+  transition: all 0.15s linear;
+}
+/* Home section styles */
+.home__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home__title {
+  width: 445px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.home__subtitle {
+  width: 445px;
+  color: #7d7987;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.home__btn {
+  width: 200px;
+  height: 56px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  align-items: center;
+  border: none;
+  color: #fff;
+  background-color: #458ff6;
+  border-radius: 55px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.home__btn:hover {
+  opacity: 80%;
+}
