@@ -6,7 +6,7 @@ body {
   font-family: "Mulish", sans-serif;
 }
 .container {
-  width: 1240px;
+  width: 1273px;
   margin: 0 auto;
 }
 ul,
@@ -16,6 +16,18 @@ li {
 a {
   text-decoration: none;
   color: black;
+}
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000;
+  line-height: 56px;
+}
+.subtitle {
+  color: #7d7987;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 32px;
 }
 /* header section styles */
 .header__logo {
@@ -76,4 +88,48 @@ a {
 }
 .home__btn:hover {
   opacity: 80%;
+}
+/* Services section styles */
+.services__wrapper--top {
+  text-align: center;
+}
+
+.services__span {
+  margin: 0 auto;
+  width: 60px;
+  height: 3px;
+  background-color: #000;
+  border-radius: 10px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card {
+  height: 350px;
+  width: 100px;
+  margin-top: 40px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+  width: calc((1273px - 20px) / 3);
+}
+.card__content {
+  padding: 20px;
+}
+.card__img {
+  height: 91.98px;
+  width: 90.01px;
+}
+.card__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.card__subtitle {
+  width: 266px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #7d7987;
 }
